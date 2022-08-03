@@ -14,7 +14,7 @@ fn(callback)
 //=================================================
 //=================================================
 
-//Eh possivel atribuit funcoes a propriedades de objetos
+//Eh possivel atribuir funcoes a propriedades de objetos
 const obj = {
     callback
 }
