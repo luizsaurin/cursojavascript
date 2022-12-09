@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+</head>
+<body>
+    <h1 class="title1">Curso Javascript Completo 2018</h1>
+
+    <main class="cmain" id="idmain">
+        <h2>Subtitulo</h2>
+        <p class="paragrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </main>
+
+    <section class="csection" id="idsection">
+        <h3>Subtitulo</h3>
+        <p class="paragrafo2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="paragrafo2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+    <script>
+
+        //seleciona elemento por id
+        //document.getElementById("title1").textContent = "novo texto"
+
+        //seleciona elemento por id
+        //document.querySelector("#title1").textContent = "novo texto 2"
+
+        //seleciona elementos pelo nome da classe
+        //document.getElementsByClassName("paragrafo2")
+        //este metodo retorna uma html collection
+
+        //document.getElementsByClassName("paragrafo2")[0].textContent = "texto paragrafo"
+
+        //seleciona elementos pelo nome da classe
+        //document.querySelectorAll(".paragrafo2")
+        //este metodo retorna uma node list
+
+        //seleciona elementos pela tag
+        //document.querySelector("h1")
+        //document.querySelectorAll("h1")[0]
+
+        //document.getElementsByTagName("p")
+
+        /*
+            selecionar um p dentro da <main>
+            var teste = document.getElementById("idmain")
+            teste.getElementsByClassName("p")
+
+            OU
+
+            document.querySelector("#idmain p")
+        */
+
+        //document.querySelector("#idsection p") seleciona o primeiro elemento encontrado
+        //document.querySelectorAll("#idsection p") seleciona todos os elementos encontrados
+    </script>
+</body>
+</html>
